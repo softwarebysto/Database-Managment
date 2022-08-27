@@ -314,7 +314,7 @@ namespace Database_Managment
             }
             catch (Exception)
             {
-                MessageBox.Show("Please choose the row from dridview");
+                MessageBox.Show("Iltimos o`chirmoqchi bo`lgan mahsulotingizni tanlang");
             }
         }
         private void update_record()
