@@ -84,9 +84,9 @@ namespace Database_Managment
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(71, 453);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(291, 25);
+            this.label4.Size = new System.Drawing.Size(183, 25);
             this.label4.TabIndex = 10;
-            this.label4.Text = "Ma`lumotlarni Excelga Nusxlash";
+            this.label4.Text = "Export data to excel";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox3
@@ -129,9 +129,9 @@ namespace Database_Managment
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(11, 196);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(148, 25);
+            this.label3.Size = new System.Drawing.Size(132, 25);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Mahsulot Narxi:";
+            this.label3.Text = "Product price:";
             // 
             // label2
             // 
@@ -139,9 +139,9 @@ namespace Database_Managment
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(11, 139);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 25);
+            this.label2.Size = new System.Drawing.Size(147, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Mahsulot Soni:";
+            this.label2.Text = "Prudct quantity:";
             // 
             // textBox1
             // 
@@ -161,9 +161,10 @@ namespace Database_Managment
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(11, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 25);
+            this.label1.Size = new System.Drawing.Size(133, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mahsulot Nomi:";
+            this.label1.Text = "Product name";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox1
             // 
@@ -185,7 +186,7 @@ namespace Database_Managment
             this.groupBox1.Size = new System.Drawing.Size(409, 500);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Ma`lumotlarni kiritish";
+            this.groupBox1.Text = "Enter product details";
             // 
             // delete
             // 
@@ -310,7 +311,7 @@ namespace Database_Managment
             // 
             this.label5.AutoSize = true;
             this.label5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.baseBindingSource2, "Total", true));
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(155)))), ((int)(((byte)(227)))));
             this.label5.Location = new System.Drawing.Point(40, 617);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 17);
@@ -368,7 +369,7 @@ namespace Database_Managment
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ombprxona";
+            this.Text = "Warehouse";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.baseBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataBase_ManagmentDataSet3)).EndInit();

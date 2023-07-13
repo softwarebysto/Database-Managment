@@ -100,28 +100,28 @@ namespace Database_Managment
             // kimgaDataGridViewTextBoxColumn
             // 
             this.kimgaDataGridViewTextBoxColumn.DataPropertyName = "Kimga";
-            this.kimgaDataGridViewTextBoxColumn.HeaderText = "Kimga";
+            this.kimgaDataGridViewTextBoxColumn.HeaderText = "To whom";
             this.kimgaDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.kimgaDataGridViewTextBoxColumn.Name = "kimgaDataGridViewTextBoxColumn";
             // 
             // nimaUchunDataGridViewTextBoxColumn
             // 
             this.nimaUchunDataGridViewTextBoxColumn.DataPropertyName = "Nima Uchun";
-            this.nimaUchunDataGridViewTextBoxColumn.HeaderText = "Nima Uchun";
+            this.nimaUchunDataGridViewTextBoxColumn.HeaderText = "Reason of spending";
             this.nimaUchunDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.nimaUchunDataGridViewTextBoxColumn.Name = "nimaUchunDataGridViewTextBoxColumn";
             // 
             // qanchaDataGridViewTextBoxColumn
             // 
             this.qanchaDataGridViewTextBoxColumn.DataPropertyName = "Qancha";
-            this.qanchaDataGridViewTextBoxColumn.HeaderText = "Qancha";
+            this.qanchaDataGridViewTextBoxColumn.HeaderText = "How much";
             this.qanchaDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.qanchaDataGridViewTextBoxColumn.Name = "qanchaDataGridViewTextBoxColumn";
             // 
             // vaqtDataGridViewTextBoxColumn
             // 
             this.vaqtDataGridViewTextBoxColumn.DataPropertyName = "Vaqt";
-            this.vaqtDataGridViewTextBoxColumn.HeaderText = "Vaqt";
+            this.vaqtDataGridViewTextBoxColumn.HeaderText = "Date";
             this.vaqtDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.vaqtDataGridViewTextBoxColumn.Name = "vaqtDataGridViewTextBoxColumn";
             // 
@@ -155,7 +155,7 @@ namespace Database_Managment
             this.groupBox1.Size = new System.Drawing.Size(469, 455);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Mijoz ma`lumotlarini kiritish";
+            this.groupBox1.Text = "Enter details";
             // 
             // delete
             // 
@@ -201,9 +201,9 @@ namespace Database_Managment
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(59, 213);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 25);
+            this.label2.Size = new System.Drawing.Size(104, 25);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Qancha";
+            this.label2.Text = "How much";
             // 
             // save
             // 
@@ -225,9 +225,9 @@ namespace Database_Managment
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.Location = new System.Drawing.Point(69, 413);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(291, 25);
+            this.label9.Size = new System.Drawing.Size(183, 25);
             this.label9.TabIndex = 20;
-            this.label9.Text = "Ma`lumotlarni Excelga Nusxlash";
+            this.label9.Text = "Export data to excel";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // textBox2
@@ -260,9 +260,9 @@ namespace Database_Managment
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(59, 158);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 25);
+            this.label1.Size = new System.Drawing.Size(185, 25);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Nima Uchun";
+            this.label1.Text = "Reason of spending";
             // 
             // textBox1
             // 
@@ -282,9 +282,9 @@ namespace Database_Managment
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(59, 103);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 25);
+            this.label5.Size = new System.Drawing.Size(93, 25);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Kimga";
+            this.label5.Text = "To whom";
             // 
             // pictureBox1
             // 
@@ -351,7 +351,7 @@ namespace Database_Managment
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Xarajat";
+            this.Text = "Exposes";
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spentMoneyBindingSource)).EndInit();
@@ -389,11 +389,11 @@ namespace Database_Managment
         private DataBase_ManagmentDataSet6 dataBase_ManagmentDataSet6;
         private System.Windows.Forms.BindingSource spentMoneyBindingSource;
         private DataBase_ManagmentDataSet6TableAdapters.Spent_MoneyTableAdapter spent_MoneyTableAdapter;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn kimgaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nimaUchunDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn qanchaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn vaqtDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Label label3;
     }
 }

@@ -107,7 +107,7 @@ namespace Database_Managment
             this.groupBox1.Size = new System.Drawing.Size(469, 455);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Mijoz ma`lumotlarini kiritish";
+            this.groupBox1.Text = "Enter client details";
             // 
             // delete
             // 
@@ -163,9 +163,9 @@ namespace Database_Managment
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(6, 215);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(214, 25);
+            this.label2.Size = new System.Drawing.Size(209, 25);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Mijoz haqida ma`lumot:";
+            this.label2.Text = "Additional cleint details";
             // 
             // save
             // 
@@ -224,9 +224,9 @@ namespace Database_Managment
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(6, 158);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 25);
+            this.label1.Size = new System.Drawing.Size(193, 25);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Mijozning telefon raqami:";
+            this.label1.Text = "Client phone number";
             // 
             // textBox1
             // 
@@ -247,9 +247,9 @@ namespace Database_Managment
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(6, 103);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 25);
+            this.label5.Size = new System.Drawing.Size(116, 25);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Mijozning ismi:";
+            this.label5.Text = "Client name";
             // 
             // dataGridView1
             // 
@@ -270,25 +270,26 @@ namespace Database_Managment
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(711, 455);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // mijozningIsmiDataGridViewTextBoxColumn
             // 
             this.mijozningIsmiDataGridViewTextBoxColumn.DataPropertyName = "Mijozning Ismi";
-            this.mijozningIsmiDataGridViewTextBoxColumn.HeaderText = "Mijozning Ismi";
+            this.mijozningIsmiDataGridViewTextBoxColumn.HeaderText = "Client name";
             this.mijozningIsmiDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.mijozningIsmiDataGridViewTextBoxColumn.Name = "mijozningIsmiDataGridViewTextBoxColumn";
             // 
             // mijozningTelefonRaqamiDataGridViewTextBoxColumn
             // 
             this.mijozningTelefonRaqamiDataGridViewTextBoxColumn.DataPropertyName = "Mijozning Telefon Raqami";
-            this.mijozningTelefonRaqamiDataGridViewTextBoxColumn.HeaderText = "Mijozning Telefon Raqami";
+            this.mijozningTelefonRaqamiDataGridViewTextBoxColumn.HeaderText = "Phone number";
             this.mijozningTelefonRaqamiDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.mijozningTelefonRaqamiDataGridViewTextBoxColumn.Name = "mijozningTelefonRaqamiDataGridViewTextBoxColumn";
             // 
             // mijozHaqidaMalumotDataGridViewTextBoxColumn
             // 
             this.mijozHaqidaMalumotDataGridViewTextBoxColumn.DataPropertyName = "Mijoz Haqida Malumot";
-            this.mijozHaqidaMalumotDataGridViewTextBoxColumn.HeaderText = "Mijoz Haqida Malumot";
+            this.mijozHaqidaMalumotDataGridViewTextBoxColumn.HeaderText = "Detials";
             this.mijozHaqidaMalumotDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.mijozHaqidaMalumotDataGridViewTextBoxColumn.Name = "mijozHaqidaMalumotDataGridViewTextBoxColumn";
             // 
@@ -308,7 +309,7 @@ namespace Database_Managment
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Mijoz qo`shish";
+            this.Text = "Adding client";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

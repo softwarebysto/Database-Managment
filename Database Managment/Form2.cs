@@ -13,11 +13,10 @@ namespace Database_Managment
     public partial class Form2 : Form
     {
             
-            SqlConnection Con = new SqlConnection(@"Data Source=DESKTOP-6CVJKRS\SQLEXPRESS; Initial Catalog=DataBase_Managment;Integrated Security=True");
+        SqlConnection Con = new SqlConnection(@"Data Source=DESKTOP-6CVJKRS\SQLEXPRESS; Initial Catalog=DataBase_Managment;Integrated Security=True");
         public Form2()
         {
-            InitializeComponent();
-            
+            InitializeComponent();            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -186,6 +185,11 @@ namespace Database_Managment
         {
             dataload();
             
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

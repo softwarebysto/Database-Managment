@@ -51,9 +51,9 @@ namespace Database_Managment
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(292, 298);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 38);
+            this.label1.Size = new System.Drawing.Size(193, 38);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Omborxona";
+            this.label1.Text = "Warehouse";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -64,9 +64,9 @@ namespace Database_Managment
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(827, 298);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 38);
+            this.label2.Size = new System.Drawing.Size(104, 38);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Sotish";
+            this.label2.Text = "Seles";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -77,9 +77,9 @@ namespace Database_Managment
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(324, 644);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 38);
+            this.label3.Size = new System.Drawing.Size(180, 38);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Xarajat";
+            this.label3.Text = "Spendings";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
@@ -90,9 +90,9 @@ namespace Database_Managment
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(797, 644);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 38);
+            this.label4.Size = new System.Drawing.Size(129, 38);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Daromad";
+            this.label4.Text = "Income";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox4
